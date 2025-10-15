@@ -49,9 +49,6 @@ SELF_DRIVING_CAR/
 
 # Some Images
 
-<img width="1111" alt="Image" src="https://github.com/user-attachments/assets/b373e636-c017-4d4f-a79b-544583985987" />
-
-<img width="737" alt="Image" src="https://github.com/user-attachments/assets/4a7e3e86-7e1d-40f1-a06c-4982b4183ac7" />
 
 # Run Locally
 - This project requires python 3.9
@@ -59,28 +56,13 @@ SELF_DRIVING_CAR/
 - Clone the project
 
     ```bash
-    git clone https://github.com/AyanGairola/Self_Driving_Car.git
+    git clone 
     ```
-    or
-    ```bash
-    git clone git@github.com:AyanGairola/Self_Driving_Car.git
-    ```
-
 
 - Create a new Environment
 
-    - using Anaconda
-
     ```bash
-    conda create sdc
-    conda activate sdc
-    ```
-    Or
-
-    - using venv
-
-    ```bash
-    python -m venv sdc
+    python -m venv venv
     source sdc/bin/activate
     ```
 
@@ -93,7 +75,7 @@ SELF_DRIVING_CAR/
     ```bash
     cd saved_models
     ```
-    - Download the PreTrained models and model weights from [Drive Link](https://drive.google.com/drive/folders/1DoqE9ZykFXq8HYu9mghvkIn8PWeBSBFJ?usp=drive_link)
+    - Download the PreTrained models and model weights from [Drive Link]()
     - Paste the downloaded weights in the corresponding directories.
 
 - Go back to the parent directory using 

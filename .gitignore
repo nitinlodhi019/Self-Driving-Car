@@ -2,9 +2,10 @@ self_driving_car
 data/driving_dataset/
 data/steering_wheel.jpg
 
-saved_models/lane_segmentation/best.pt
-saved_models/lane_segmentation/last.pt
-saved_models/object_detection/yolo11m.pt
+saved_models/lane_segmentation/
+saved_models/object_detection/
+saved_models/steering_angle/
 model_training/steering_angle/__pycache__/driving_data.cpython-39.pyc
 .gitignore
-saved_models/object_detection/yolo11s-seg.pt
+
+venv/
