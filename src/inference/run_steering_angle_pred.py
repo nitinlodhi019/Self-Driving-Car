@@ -105,13 +105,13 @@ class DrivingSimulator:
         alpha_channel = rotated_steering[:, :, 3]  # Extract alpha channel
         mask = alpha_channel > 0  # Mask where pixels are non-transparent
 
-        # Apply the mask to place the rotated steering wheel on a black background
+        #Apply the mask to place the rotated steering wheel on a black background
         steering_display[mask] = rotated_steering[mask]
 
-        # Convert to BGR for display
+        #Convert to BGR for display
         steering_display_bgr = cv2.cvtColor(steering_display, cv2.COLOR_BGRA2BGR)
 
-        # Overlay text with predicted angle
+        #Overlay text with predicted angle
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(
             steering_display_bgr, 

@@ -268,7 +268,7 @@ def display_images_with_segmentation(input_folder, display_time=20):
 
 if __name__ == "__main__":
     input_folder = "../../data/driving_dataset"
-    # Uncomment the next line to run only lane detection:
+    # Uncomment the next line to run only lane detection
     # display_images(input_folder, display_time=10)
-    # To run lane detection with YOLO segmentation overlay:
+    # To run lane detection with YOLO segmentation overlay
     display_images_with_segmentation(input_folder, display_time=10)
